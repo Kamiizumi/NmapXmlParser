@@ -20,8 +20,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class nmaprun {
         
         private scaninfo[] scaninfoField;
@@ -205,8 +205,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class scaninfo {
         
         private scaninfoType typeField;
@@ -278,7 +278,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum scaninfoType {
         
         /// <remarks/>
@@ -324,7 +324,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum scaninfoProtocol {
         
         /// <remarks/>
@@ -345,8 +345,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class verbose {
         
         private string levelField;
@@ -368,8 +368,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class debugging {
         
         private string levelField;
@@ -391,8 +391,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class host {
         
         private status statusField;
@@ -503,8 +503,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class status {
         
         private statusState stateField;
@@ -550,7 +550,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum statusState {
         
         /// <remarks/>
@@ -571,8 +571,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class address {
         
         private string addrField;
@@ -623,7 +623,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum addressAddrtype {
         
         /// <remarks/>
@@ -641,8 +641,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class distance {
         
         private string valueField;
@@ -664,8 +664,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class hostnames {
         
         private hostname[] hostnameField;
@@ -687,8 +687,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class hostname {
         
         private string nameField;
@@ -734,7 +734,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum hostnameType {
         
         /// <remarks/>
@@ -749,8 +749,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class hostscript {
         
         private script[] scriptField;
@@ -772,8 +772,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class script {
         
         private object[] itemsField;
@@ -835,8 +835,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class elem {
         
         private string keyField;
@@ -871,8 +871,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class table {
         
         private object[] itemsField;
@@ -908,8 +908,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class ipidsequence {
         
         private string classField;
@@ -944,8 +944,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class os {
         
         private portused[] portusedField;
@@ -993,8 +993,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class portused {
         
         private string stateField;
@@ -1040,7 +1040,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum portusedProto {
         
         /// <remarks/>
@@ -1061,8 +1061,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class osmatch {
         
         private osclass[] osclassField;
@@ -1123,8 +1123,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class osclass {
         
         private string[] cpeField;
@@ -1211,8 +1211,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class osfingerprint {
         
         private string fingerprintField;
@@ -1234,8 +1234,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class ports {
         
         private extraports[] extraportsField;
@@ -1270,8 +1270,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class extraports {
         
         private extrareasons[] extrareasonsField;
@@ -1319,8 +1319,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class extrareasons {
         
         private string reasonField;
@@ -1355,8 +1355,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class port {
         
         private state stateField;
@@ -1440,8 +1440,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class state {
         
         private string state1Field;
@@ -1502,8 +1502,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class owner {
         
         private string nameField;
@@ -1525,8 +1525,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class service {
         
         private string[] cpeField;
@@ -1767,7 +1767,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum serviceConf {
         
         /// <remarks/>
@@ -1818,7 +1818,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum serviceMethod {
         
         /// <remarks/>
@@ -1831,7 +1831,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum serviceTunnel {
         
         /// <remarks/>
@@ -1841,7 +1841,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum serviceProto {
         
         /// <remarks/>
@@ -1851,7 +1851,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum portProtocol {
         
         /// <remarks/>
@@ -1872,8 +1872,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class smurf {
         
         private string responsesField;
@@ -1895,8 +1895,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class tcpsequence {
         
         private string indexField;
@@ -1944,8 +1944,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class tcptssequence {
         
         private string classField;
@@ -1980,8 +1980,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class trace {
         
         private hop[] hopField;
@@ -2029,8 +2029,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class hop {
         
         private string ttlField;
@@ -2091,8 +2091,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class uptime {
         
         private string secondsField;
@@ -2127,8 +2127,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class times {
         
         private string srttField;
@@ -2176,8 +2176,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class output {
         
         private outputType typeField;
@@ -2223,7 +2223,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum outputType {
         
         /// <remarks/>
@@ -2235,8 +2235,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class postscript {
         
         private script[] scriptField;
@@ -2258,8 +2258,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class prescript {
         
         private script[] scriptField;
@@ -2281,8 +2281,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class target {
         
         private string specificationField;
@@ -2354,7 +2354,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum targetStatus {
         
         /// <remarks/>
@@ -2364,7 +2364,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum targetReason {
         
         /// <remarks/>
@@ -2376,8 +2376,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class taskbegin {
         
         private string taskField;
@@ -2425,8 +2425,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class taskend {
         
         private string taskField;
@@ -2474,8 +2474,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class taskprogress {
         
         private string taskField;
@@ -2547,7 +2547,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://tempuri.org/nmap", IncludeInSchema=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(IncludeInSchema=false)]
     public enum ItemsChoiceType {
         
         /// <remarks/>
@@ -2580,8 +2580,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class runstats {
         
         private finished finishedField;
@@ -2614,8 +2614,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class finished {
         
         private string timeField;
@@ -2713,7 +2713,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum finishedExit {
         
         /// <remarks/>
@@ -2728,8 +2728,8 @@ namespace NmapXmlParser {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://tempuri.org/nmap", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace="", IsNullable=false)]
     public partial class hosts {
         
         private string upField;
@@ -2782,7 +2782,7 @@ namespace NmapXmlParser {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://tempuri.org/nmap")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum nmaprunScanner {
         
         /// <remarks/>
