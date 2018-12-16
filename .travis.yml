@@ -11,6 +11,7 @@ before_deploy:
     - dotnet pack --configuration Release --no-build --version-suffix ${TRAVIS_BUILD_NUMBER}
     - cd NmapXmlParser/bin/Release/
     - zip -r output.zip *
+    - ls -la
 deploy:
     provider: releases
     api_key:
