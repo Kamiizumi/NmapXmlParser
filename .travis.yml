@@ -18,4 +18,5 @@ deploy:
     file: NmapXmlParser/bin/Release/*.nupkg
     on:
         repo: Kamiizumi/NmapXmlParser
-        branch: deployment
+        branch: master
+        tags: true
