@@ -14,7 +14,7 @@ deploy:
         - tar -zcvf output.tar.gz ./
     provider: releases
     api_key:
-        secure: kDL13ttVhLpYBVac7Su7LL3iiCNFEdrD+JfnHCI9J11pzsmv113GFkHjdpeqH/V4rD5G71ShnH9sHPbUE+vVV4Vh26QzrYWyCENxNMZ5vmz2pUXCG7hZ6oGfrFu9uq+GP+pWoevtjsG34hwNW/SnzqBs4qcF8GupPdEtK8vNBg7ElfPDblEr+tDlS7jkHTPyXkx5d3lTzaA2MbRup+F5u+1ebLLmWMV1PD+cw0+UBmmLODxvGOAZ3b1Of68teQ8RUsvGP53L6rG6Xv3VQh4bLBkJmb2SP/nHNgxgToJmGpyDD/EnwnAz+oLm/37fAcox86qv+27YCPjE7vBAQEzpIDgrLXaPkTtpyyvF/YANmkrwswaHvdwxQP7XgLHdKpkzLRhMjmwnC1kk5X/EMaG4k3SfoOoc6UULrpzF55lJZZHJlUS8qYN8daarMyJfHowkJN+nix5kFvxhdXL0EkGP9LfbJOPX+m+xSlIic5Bk7gtzC8XybW+5KktcoqRmcAIil6dKeIRjZztMCKoC0u9MiBKIFZIy/8/qtXsbKHa5SUSUekNwxE/1KszJlMsKgupMqbP7VwCUSeGLcToXFgznFLETpTtYIJW9JISD/RTn4owR/P+kX6NCsL+nzNU9i4qtMp60kQmfr8qqwhPx4VCqEdX81vIUqX+gpue5hT4n/yk=
+        secure: HG7Pd23XD6f/5grOhpTuEel47DDIX0Bhzcy0rULJPJn35/DMuzNZzVk+SuYAR6AUtxq7rZorHrJx8cxzpZvPOH4vwU4iKai7fcmc2xcB8i9sBAWDpTr5gskCnJR+KtstyJh+FuSkbaw022Q3CoukXNEbgPMyUSqeUCcC05k+T8S3T7RrQ75I5iQ36/q34n59QU1YHGDLVI3Vp8Bdzl2Yo9QAR+yTs1LnZCJNi5HdlyvbOTW4Qu6eHWdVlaErDIPYdKN/BLMP16nMi7eY7X/FimczVXWiUYrmbiLU0RpUT26qrkb9HUHPgOx8XHSkgv5KQPJYHofOMaB/ryt7O96002sL/G5fuJxw+69VWdTPJ+MTGxEheBoiQJb4sC1XoaKFDX3l9WMKhXHgHndRb1W+CgNL08C1TYTgicef5Cvucw/LnehXLbXwC/Sfewr1TfEvr+HofMmBHcjNTumA/qr9G1TZXG2TEEQ3iSjm9RZBn+7uK3/BlyLP22PJvPou/Hx9g0X79c2cZaFA3LI47Og8jdcbIoLa49DA0fMqsi2yjeeYu9Io8JUqIIVayw4lvskFOQn1RmJd7IBagJaE+vy41sbwC4ZAEbdFZ5ECxFdgYIYzx+8ZsTwsH+i7VxA22nOdZOYLApHz2EAHlBBHgiUrJUhTGlstbQeiPIePRfqSOKw=
     file: output.tar.gz
     on:
         repo: Kamiizumi/NmapXmlParser
