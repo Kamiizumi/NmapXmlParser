@@ -2,6 +2,10 @@
 
 A .NET Standard library for parsing [Nmap XML output](https://nmap.org/book/output-formats-xml-output.html).
 
+## Requirements
+
+- A framework that supports .NET Standard 1.3 or newer (see [.NET Standard Versions](https://github.com/dotnet/standard/blob/master/docs/versions.md) for details)
+
 ## Generating Classes from Schema
 
 The classes to parse the Nmap XML output are generated from the [Nmap document type definition](https://nmap.org/book/app-nmap-dtd.html) (DTD). To prevent naming collisions the generated classes are scoped to the `NmapXmlParser` namespace.
