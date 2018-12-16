@@ -3,6 +3,13 @@
   <PropertyGroup>
     <VersionSuffix>Dev</VersionSuffix>
     <Version>1.0.0+$(VersionSuffix)</Version>
+
+    <Authors>Kamiizumi</Authors>
+    <Description>A .NET Standard library for parsing Nmap XML output.</Description>
+    <PackageLicenseUrl>https://github.com/Kamiizumi/NmapXmlParser/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Kamiizumi/NmapXmlParser</PackageProjectUrl>
+    <PackageTags>nmap-parser;nmap-xml;nmap;netstandard</PackageTags>
+    <RepositoryUrl>https://github.com/Kamiizumi/NmapXmlParser.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
