@@ -11,6 +11,11 @@ script:
 deploy:
     script:
         - dotnet pack --configuration Release --no-build
+        - tar -zcvf output.tar.gz ./
     provider: releases
+    api_key:
+        secure: kDL13ttVhLpYBVac7Su7LL3iiCNFEdrD+JfnHCI9J11pzsmv113GFkHjdpeqH/V4rD5G71ShnH9sHPbUE+vVV4Vh26QzrYWyCENxNMZ5vmz2pUXCG7hZ6oGfrFu9uq+GP+pWoevtjsG34hwNW/SnzqBs4qcF8GupPdEtK8vNBg7ElfPDblEr+tDlS7jkHTPyXkx5d3lTzaA2MbRup+F5u+1ebLLmWMV1PD+cw0+UBmmLODxvGOAZ3b1Of68teQ8RUsvGP53L6rG6Xv3VQh4bLBkJmb2SP/nHNgxgToJmGpyDD/EnwnAz+oLm/37fAcox86qv+27YCPjE7vBAQEzpIDgrLXaPkTtpyyvF/YANmkrwswaHvdwxQP7XgLHdKpkzLRhMjmwnC1kk5X/EMaG4k3SfoOoc6UULrpzF55lJZZHJlUS8qYN8daarMyJfHowkJN+nix5kFvxhdXL0EkGP9LfbJOPX+m+xSlIic5Bk7gtzC8XybW+5KktcoqRmcAIil6dKeIRjZztMCKoC0u9MiBKIFZIy/8/qtXsbKHa5SUSUekNwxE/1KszJlMsKgupMqbP7VwCUSeGLcToXFgznFLETpTtYIJW9JISD/RTn4owR/P+kX6NCsL+nzNU9i4qtMp60kQmfr8qqwhPx4VCqEdX81vIUqX+gpue5hT4n/yk=
+    file: output.tar.gz
     on:
-        tags: true
+        repo: Kamiizumi/NmapXmlParser
+        branch: deployment
