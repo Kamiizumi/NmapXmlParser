@@ -14,6 +14,9 @@ To re-generate the classes a Visual Studio installation is required. The followi
 
 1. Download the latest copy of the [Nmap DTD](https://svn.nmap.org/nmap/docs/nmap.dtd) and save it to `Schemas/nmap.dtd`.
 1. Convert the DTD to a XML Schema Definition (XSD). Open the downloaded DTD file in Visual Studio and go to `XML` > `Create Schema`. Save the generated XSD to `Schemas/nmap.xsd`.
-1. Generate the C# classes from the XSD. Open the `Developer Command Prompt for VS` and run the following command from the root of this repository: `xsd NmapXmlParser/Schemas/nmap.xsd /classes /language:CS /namespace:NmapXmlParser /out:NmapXmlParser/`
+1. Generate the C# classes from the XSD. Open the `Developer Command Prompt for VS` and run the following command from the root of this repository:
+    ```bat
+    xsd NmapXmlParser/Schemas/nmap.xsd /classes /language:CS /namespace:NmapXmlParser /out:NmapXmlParser/
+    ```
 
 At this point the library can be re-built to include the updated classes.
