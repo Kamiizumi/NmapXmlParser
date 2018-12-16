@@ -8,3 +8,9 @@ install:
 script:
     - dotnet build --configuration Release --no-restore
     - dotnet test --configuration Release --no-build
+deploy:
+    script:
+        - dotnet pack --configuration Release --no-build
+    provider: releases
+    on:
+        tags: true
