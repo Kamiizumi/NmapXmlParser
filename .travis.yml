@@ -1,16 +1,22 @@
 language: csharp
-solution: NmapXmlParser.sln
 dist: xenial
 mono: none
 dotnet: 2.2.101
 install:
     - dotnet restore
 script:
-    - dotnet build --configuration Release --no-restore
+    - dotnet build --configuration Release --no-restore --version-suffix ${TRAVIS_BUILD_NUMBER}
     - dotnet test --configuration Release --no-build
+before_deploy:
+    - dotnet pack --configuration Release --no-build --version-suffix ${TRAVIS_BUILD_NUMBER}
 deploy:
-    script:
-        - dotnet pack --configuration Release --no-build
     provider: releases
+    api_key:
+        secure: HG7Pd23XD6f/5grOhpTuEel47DDIX0Bhzcy0rULJPJn35/DMuzNZzVk+SuYAR6AUtxq7rZorHrJx8cxzpZvPOH4vwU4iKai7fcmc2xcB8i9sBAWDpTr5gskCnJR+KtstyJh+FuSkbaw022Q3CoukXNEbgPMyUSqeUCcC05k+T8S3T7RrQ75I5iQ36/q34n59QU1YHGDLVI3Vp8Bdzl2Yo9QAR+yTs1LnZCJNi5HdlyvbOTW4Qu6eHWdVlaErDIPYdKN/BLMP16nMi7eY7X/FimczVXWiUYrmbiLU0RpUT26qrkb9HUHPgOx8XHSkgv5KQPJYHofOMaB/ryt7O96002sL/G5fuJxw+69VWdTPJ+MTGxEheBoiQJb4sC1XoaKFDX3l9WMKhXHgHndRb1W+CgNL08C1TYTgicef5Cvucw/LnehXLbXwC/Sfewr1TfEvr+HofMmBHcjNTumA/qr9G1TZXG2TEEQ3iSjm9RZBn+7uK3/BlyLP22PJvPou/Hx9g0X79c2cZaFA3LI47Og8jdcbIoLa49DA0fMqsi2yjeeYu9Io8JUqIIVayw4lvskFOQn1RmJd7IBagJaE+vy41sbwC4ZAEbdFZ5ECxFdgYIYzx+8ZsTwsH+i7VxA22nOdZOYLApHz2EAHlBBHgiUrJUhTGlstbQeiPIePRfqSOKw=
+    skip_cleanup: true
+    file_glob: true
+    file: NmapXmlParser/bin/Release/*.nupkg
     on:
+        repo: Kamiizumi/NmapXmlParser
+        branch: master
         tags: true
