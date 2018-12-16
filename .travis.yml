@@ -1,0 +1,8 @@
+language: csharp
+solution: NmapXmlParser.sln
+mono: none
+dotnet: 2.2.101
+install:
+    - dotnet restore
+script:
+    - dotnet build
