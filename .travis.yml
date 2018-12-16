@@ -18,6 +18,7 @@ deploy:
     file: NmapXmlParser/bin/Release/*.nupkg
     on:
         repo: Kamiizumi/NmapXmlParser
-        branch: nuget-push
+        branch: master
+        tags: true
 after_deploy:
     - dotnet nuget push NmapXmlParser/bin/Release/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_API_KEY}
