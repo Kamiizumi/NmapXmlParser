@@ -1,0 +1,16 @@
+language: csharp
+solution: NmapXmlParser.sln
+dist: xenial
+mono: none
+dotnet: 2.2.101
+install:
+    - dotnet restore
+script:
+    - dotnet build --configuration Release --no-restore
+    - dotnet test --configuration Release --no-build
+deploy:
+    script:
+        - dotnet pack --configuration Release --no-build
+    provider: releases
+    on:
+        tags: true
