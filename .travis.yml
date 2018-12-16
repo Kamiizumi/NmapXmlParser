@@ -10,7 +10,7 @@ script:
     - dotnet test --configuration Release --no-build
 before_deploy:
     - dotnet pack --configuration Release --no-build
-    - tar -zcvf output.tar.gz ./
+    - tar -zcvf output.tar.gz NmapXmlParser/bin/Release/
 deploy:
     provider: releases
     api_key:
