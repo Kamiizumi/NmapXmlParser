@@ -6,6 +6,22 @@ A .NET Standard library for parsing [Nmap XML output](https://nmap.org/book/outp
 
 - A framework that supports .NET Standard 1.3 or newer (see [.NET Standard Versions](https://github.com/dotnet/standard/blob/master/docs/versions.md) for details)
 
+## Example Usage
+
+### Deserialize Nmap XML File
+
+```csharp
+var xmlSerializer = new XmlSerializer(typeof(nmaprun));
+var result = default(nmaprun);
+
+using (var xmlStream = new StreamReader("NmapResults.xml"))
+{
+    result = xmlSerializer.Deserialize(xmlStream) as nmaprun;
+}
+
+Console.WriteLine(result.args);
+```
+
 ## Generating Classes from Schema
 
 The classes to parse the Nmap XML output are generated from the [Nmap document type definition](https://nmap.org/book/app-nmap-dtd.html) (DTD). To prevent naming collisions the generated classes are scoped to the `NmapXmlParser` namespace.
