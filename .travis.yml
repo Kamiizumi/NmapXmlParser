@@ -5,7 +5,7 @@ dotnet: 2.2.101
 install:
     - dotnet restore
 script:
-    - dotnet build --configuration Release --no-restore
+    - dotnet build --configuration Release --no-restore --version-suffix ${TRAVIS_BUILD_NUMBER}
     - dotnet test --configuration Release --no-build
 before_deploy:
     - dotnet pack --configuration Release --no-build
