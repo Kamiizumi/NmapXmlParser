@@ -1,5 +1,4 @@
 language: csharp
-solution: NmapXmlParser.sln
 dist: xenial
 mono: none
 dotnet: 2.2.101
