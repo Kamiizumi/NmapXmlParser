@@ -8,7 +8,7 @@ script:
     - dotnet build --configuration Release --no-restore --version-suffix ${TRAVIS_BUILD_NUMBER}
     - dotnet test --configuration Release --no-build
 before_deploy:
-    - dotnet pack --configuration Release --no-build
+    - dotnet pack --configuration Release --no-build --version-suffix ${TRAVIS_BUILD_NUMBER}
     - tar -zcvf output.tar.gz NmapXmlParser/bin/Release/
 deploy:
     provider: releases
