@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NmapXmlParser", "NmapXmlParser\NmapXmlParser.csproj", "{D1D6AB7C-8683-4E78-A898-06F2DB0F9C48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D6AB7C-8683-4E78-A898-06F2DB0F9C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D6AB7C-8683-4E78-A898-06F2DB0F9C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D6AB7C-8683-4E78-A898-06F2DB0F9C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D6AB7C-8683-4E78-A898-06F2DB0F9C48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77E58D03-7C29-4B55-A03B-CAF1CC3B4CBC}
+	EndGlobalSection
+EndGlobal
